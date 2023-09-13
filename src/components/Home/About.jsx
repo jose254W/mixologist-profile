@@ -16,16 +16,12 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           </div>
           <p className="bg-black h-1 w-24"></p>
           <p className="my-4">
-            Uncommonly surrounded considered for him are its. It we is read good
-            soon. My to considered delightful invitation announcing of no
-            decisively boisterous. Ecstatic advanced and procured civility not
-            absolute put continue. <strong>Advantages so impression</strong> .
-            Almost unable put piqued talked likely houses her met. Abilities
-            forfeited situation extremely my to he resembled. Old had conviction
-            discretion understood put principles you.{" "}
-            <strong>Ecstatic advanced</strong> and procured civility not
-            absolute put continue. Advantages so impression. Almost unable put
-            piqued talked likely houses her met.
+            I'm a passionate mixologist with a flair for crafting unique and
+            memorable cocktails. With years of experience behind the bar, I
+            thrive on creating innovative drink experiences that tantalize the
+            senses. From classic concoctions to bespoke creations, I'm dedicated
+            to perfecting the art of mixology one cocktail at a time. Cheers to
+            the art of libations!
           </p>
         </div>
       </div>
