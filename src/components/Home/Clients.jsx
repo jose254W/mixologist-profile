@@ -25,7 +25,7 @@ export default function App() {
           clients.map(
             (client) =>
               client.id === clickedImageId && (
-                <div className="fixed  bg-white shadow-xl h-[700px] my-auto transition ease-in-out duration-500 inset-0 bg-opacity z-10  w-[90%]  mx-auto">
+                <div className="fixed bg-white shadow-xl h-[700px] my-auto transition ease-in-out duration-500 inset-0 bg-opacity z-10  w-[90%]  mx-auto">
                   <div className="flex justify-end  p-4">
                     <button
                       className="bg-black text-white px-4 py-2 rounded-lg"

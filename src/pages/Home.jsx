@@ -10,11 +10,11 @@ const Home = ({ portolioSelected, setPortfolioSelected }) => {
   return (
     <div>
       <Hero />
-      <LatestWorks />
       <About
         portolioSelected={portolioSelected}
         setPortfolioSelected={setPortfolioSelected}
       />
+        <LatestWorks />
       {/* <Pricing /> */}
       <Clients />
       <Contact />

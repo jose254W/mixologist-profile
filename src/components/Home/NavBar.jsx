@@ -51,18 +51,20 @@ const NavBar = () => {
         </a>
 
         <div className="flex">
-          <div
-            onClick={() => {
-              setIsOpen(!isOpen);
-            }}
-            className="flex group cursor-pointer  transition ease-in-out duration-500"
-          >
-            <FiMenu
-              style={{ color: `${textColor}` }}
-              className=" font-bold cursor-pointer animate-bounce  focus:scale-105 transition ease-in-out duration-500  text-3xl md:text-5xl"
-            />
-          </div>
-        </div>
+  <div
+    onClick={() => {
+      setIsOpen(!isOpen);
+    }}
+    className="flex group cursor-pointer transition ease-in-out duration-500"
+    style={{ overflowX: "auto" }} 
+  >
+    <FiMenu
+      style={{ color: `${textColor}` }}
+      className="font-bold cursor-pointer animate-bounce focus:scale-105 transition ease-in-out duration-500 text-3xl md:text-5xl"
+    />
+  </div>
+</div>
+
         <div
           className={
             isOpen
@@ -149,18 +151,8 @@ const NavBar = () => {
             >
               <SiGmail className="md:text-4xl text-2xl  group-hover:text-black hover:scale-110 duration-300 mx-2 cursor-pointer " />
             </a>
-
             <a
-              href="https://twitter.com/craigelushasha/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ border: "1px solid #888888" }}
-              className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
-            >
-              <AiFillTwitterCircle className="md:text-4xl text-2xl  group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer " />
-            </a>
-            <a
-              href="https://www.tiktok.com/lushasha_mixologist/"
+              href="https://www.tiktok.com/@lushasha_mixologist?_t=8fof7rzUvZe&_r=1"
               target="_blank"
               rel="noopener noreferrer"
               style={{ border: "1px solid #888888" }}

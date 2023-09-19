@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="flex  md:flex-row flex-col">
         <div className="md:w-[50%] w-[90%] mx-auto bg-white flex flex-col md:p-12 p-4 items-center md:items-end">
           <video autoPlay muted loop className="w-full h-full object-cover">
-            <source src="/src/assets/supa.mp4" type="video/mp4" />
+            <source src="/supa.mp4" type="video/mp4" />
             {/* Add more source elements for different video formats */}
             Your browser does not support the video tag.
           </video>

@@ -41,7 +41,7 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           </Link>
           <Link
             to="/portfolio"
-            onClick={() => setPortfolioSelected("studio")}
+            onClick={() => setPortfolioSelected("outdoor")}
             className="flex uppercase justify-center items-center md:h-[250px] md:w-[250px] w-[150px] h-[150px]
             hover:bg-white hover:text-black cursor-pointer transition
             ease-in-out duration-500"
@@ -56,7 +56,7 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
         <div className="flex justify-center  ">
           <Link
             to="/portfolio"
-            onClick={() => setPortfolioSelected("nature")}
+            onClick={() => setPortfolioSelected("indoor")}
             className="flex justify-center uppercase items-center md:h-[250px] md:w-[250px] w-[150px] h-[150px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
           >
             indoor
