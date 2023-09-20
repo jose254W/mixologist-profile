@@ -27,7 +27,7 @@ const Contact = () => {
             <div className="flex items-center gap-4">
               <BsPhone className="text-7xl text-[#CCCCCC]" />
               <div className="flex  flex-col">
-                <h1 className="text-white text-xl">+254 796 408 129</h1>
+                <h1 className="text-white text-m">+254 796 408129</h1>
                 <h1 className="text-[#CCCCCC] uppercase">Business days only</h1>
               </div>
             </div>
@@ -42,8 +42,8 @@ const Contact = () => {
             <div className="flex items-center gap-4">
               <AiOutlineMail className="text-7xl text-[#CCCCCC]" />
               <div className="flex  flex-col">
-                <h1 className="text-white text-xl">
-                  craigelushasha9822@gmail.com{" "}
+                <h1 className="text-white text-m">
+                craigelushasha9822@gmail.com
                 </h1>
                 <h1 className="text-[#CCCCCC] uppercase">
                   UP TO 72 HOURS RESPOND
@@ -62,7 +62,7 @@ const Contact = () => {
             <div className="flex items-center gap-4">
               <BsInstagram className="text-7xl text-[#CCCCCC]" />
               <div className="flex  flex-col">
-                <h1 className="text-white text-xl">@lushasha_mixologist</h1>
+                <h1 className="text-white text-m">@lushasha_mixologist</h1>
                 <h1 className="text-[#CCCCCC] uppercase">
                   UP TO 72 HOURS RESPOND
                 </h1>
