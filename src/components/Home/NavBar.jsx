@@ -111,14 +111,7 @@ const NavBar = () => {
             >
               Clients
             </a>
-            {/* <hr className="w-[20%] border-[#888888] border-opacity-50" />
-            <a
-              href="#pricing"
-              className="cursor-pointer hover:text-white transition ease-in-out duration-500"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              Pricing
-            </a> */}
+           
             <hr className="w-[20%] border-[#888888] border-opacity-50" />
             <a
               href="#contact"
