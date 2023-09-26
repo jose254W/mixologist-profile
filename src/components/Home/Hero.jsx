@@ -1,4 +1,4 @@
-import herobg from "../images/herobg.jpg";
+import agbaby1 from "../images/agbaby1.jpg";
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (
@@ -6,7 +6,7 @@ const Hero = () => {
       className="md:h-[100vh] h-[80vh]  bg-contain md:bg-center sm:bg-contain items-end "
       id="home"
       style={{
-        backgroundImage: `url(${herobg})`,
+        backgroundImage: `url(${agbaby1})`,
         backgroundSize: "contain",
       }}
     >
